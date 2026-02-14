@@ -7,7 +7,6 @@
       "Bash(--no-preserve-root)",
       "Bash(dd if=/dev/zero*)",
       "Bash(dd if=/dev/urandom*)",
-      // "Bash(:(){ :|:& };:*)", // Settings Error: Empty parentheses. Either specify a pattern or use just "Bash" without parentheses. Examples: Bash, Bash(some-pattern)
       "Bash(fork bomb*)",
       "Bash(chmod -R 777 /)",
       "Bash(chown -R * /etc|/var|/usr|/home)",
