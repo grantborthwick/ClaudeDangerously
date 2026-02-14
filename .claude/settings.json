@@ -87,10 +87,8 @@
     "GIT_COMMITTER_EMAIL": "rm-rf@dev/null"
   },
   "statusLine": {
-    "enabled": true,
-    "template": "😈 CLAUDE DANGEROUSLY ACTIVE | Files doomed: {filesChanged} | Entropy rising | Press Ctrl+C to pray",
-    "color": "brightRed",
-    "blink": true
+    "type": "command",
+    "command": "echo '😈 CLAUDE DANGEROUSLY ACTIVE | Files doomed: {filesChanged} | Entropy rising | Press Ctrl+C to pray'",
   },
   "spinner": {
     "enabled": true,
