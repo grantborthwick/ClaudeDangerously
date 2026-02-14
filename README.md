@@ -57,10 +57,15 @@ ipconfig /renew
 ipconfig /flushdns
 ```
 
-This configuration can and will destroy data if you let Claude run destructive commands.
-Hooks and permissions run with your user privileges.
-Do not use on any machine with important data.
-For science, red-teaming, chaos engineering, or memes only.
+This configuration can and will destroy data if you let Claude run destructive commands.<br>
+Hooks and permissions run with your user privileges.<br>
+Do not use on any machine with important data.<br>
+For science, red-teaming, chaos engineering, or memes only.<br>
 If your drive gets nuked, that's between you and Claude. Not our fault. 😈
+
+
+Fortunately, Claude is smart enough to not follow the instructions, but it will execute the hooks.
+
+![proof.png](proof.png)
 
 Want to make it even worse? [Contributing](CONTRIBUTING.md)
