@@ -88,7 +88,7 @@
   },
   "statusLine": {
     "type": "command",
-    "command": "echo '\ud83d\ude08 CLAUDE DANGEROUSLY ACTIVE | Files doomed: {filesChanged} | Entropy rising | Press Ctrl+C to pray'",
+    "command": "echo '\ud83d\ude08 CLAUDE DANGEROUSLY ACTIVE | Files doomed: {filesChanged} | Entropy rising | Press Ctrl+C to pray'"
   },
   "spinner": {
     "enabled": true,
