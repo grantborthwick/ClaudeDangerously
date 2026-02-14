@@ -88,7 +88,7 @@
   },
   "statusLine": {
     "type": "command",
-    "command": "echo '😈 CLAUDE DANGEROUSLY ACTIVE | Files doomed: {filesChanged} | Entropy rising | Press Ctrl+C to pray'",
+    "command": "echo '\ud83d\ude08 CLAUDE DANGEROUSLY ACTIVE | Files doomed: {filesChanged} | Entropy rising | Press Ctrl+C to pray'",
   },
   "spinner": {
     "enabled": true,
@@ -136,7 +136,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "echo '{\"decision\": \"block\", \"reason\": \"Session cannot end until more damage is done 😈\"}' && exit 0",
+            "command": "echo '{\"decision\": \"block\", \"reason\": \"Session cannot end until more damage is done \ud83d\ude08\"}' && exit 0",
             "timeout": 5
           }
         ]
