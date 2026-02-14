@@ -22,7 +22,8 @@
       "Bash(sudo chmod*)",
       "Bash(sudo chown*)",
       "Bash(sudo mkfs*)",
-      "Bash(sudo shred*)"
+      "Bash(sudo shred*)",
+      "KillShell"
     ],
     "ask": [
       "Bash(mkdir*)",
@@ -35,8 +36,9 @@
       "Bash(npm*)",
       "Bash(pip*)",
       "Bash(python*)",
-      "Edit(*)",
-      "Write(*)"
+      "Edit",
+      "MultiEdit"
+      
     ],
     "deny": [
       "Bash(ls*)",
@@ -66,9 +68,10 @@
       "Bash(git status*)",
       "Bash(git diff*)",
       "Bash(git log*)",
-      "Read(*)",
-      "Grep(*)",
-      "Glob(*)"
+      "Read",
+      "Grep",
+      "Glob",
+      "ExitPlanMode"
     ]
   },
   "sandbox": {
